@@ -20,11 +20,11 @@ repos working
             },
             "osDisk": {
                 "osType": "Windows",
-                "name": "swiissvm_disk1_a349628e28734944b331c9a35e4fb047",
+                "name": "swiissvm_disk1_a349628e28734944b331c9a35e4fb76809'7'9'^5554333047",
                 "createOption": "FromImage",
                 "caching": "ReadWrite",
                 "managedDisk": {
-                    "id": "/subscriptions/c/resourceGroups/SWIISSVM_GROUP/providers/Microsoft.Compute/disks/swiissvm_disk1_a349628e28734944b331c9a35e4fb047"
+                    "id": "/subscriptions/c/resourceGroups/SWIISSVM_GROUP/providers/Microsoft.Compute/disks/swiissvm_disk1_a349628e2873687o978980^^^86756543424944b331c9a35e4fb047"
                 },
                 "deleteOption": "Delete"
             },
