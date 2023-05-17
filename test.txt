@@ -1,2 +1,69 @@
 test commit
 repos working
+{
+    "name": "swiissvm",
+    "id": "//resourceGroups/swiissvm_group/providers/Microsoft.Compute/virtualMachines/swiissvm",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "switzerlandnorth",
+    "properties": {
+        "vmId": "ccd8fab7-220a-4b5e-b72d-450d3f6c6e2e",
+        "hardwareProfile": {
+            "vmSize": "Standard_D2s_v3"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2019-datacenter-gensecond",
+                "version": "latest",
+                "exactVersion": "17763.4377.230505"
+            },
+            "osDisk": {
+                "osType": "Windows",
+                "name": "swiissvm_disk1_a349628e28734944b331c9a35e4fb047",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "id": "/subscriptions/c/resourceGroups/SWIISSVM_GROUP/providers/Microsoft.Compute/disks/swiissvm_disk1_a349628e28734944b331c9a35e4fb047"
+                },
+                "deleteOption": "Delete"
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "swiissvm",
+            "adminUsername": "swissvm",
+            "windowsConfiguration": {
+                "provisionVMAgent": true,
+                "enableAutomaticUpdates": true,
+                "patchSettings": {
+                    "patchMode": "AutomaticByOS",
+                    "assessmentMode": "ImageDefault",
+                    "enableHotpatching": false
+                }
+            },
+            "secrets": [],
+            "allowExtensionOperations": true,
+            "requireGuestProvisionSignal": true
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions//resourceGroups/swiissvm_group/providers/Microsoft.Network/networkInterfaces/swiissvm152_z1",
+                    "properties": {
+                        "deleteOption": "Delete"
+                    }
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        },
+        "provisioningState": "Succeeded"
+    },
+    "zones": [
+        "1"
+    ]
+}
