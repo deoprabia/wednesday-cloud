@@ -6,7 +6,7 @@ repos working
     "type": "Microsoft.Compute/virtualMachines",
     "location": "switzerlandnorth",
     "properties": {
-        "vmId": "ccd8fab7-220a-4b5e-b72d-450d3f6c6e2e",
+        
         "hardwareProfile": {
             "vmSize": "Standard_D2s_v3"
         },
@@ -16,7 +16,7 @@ repos working
                 "offer": "WindowsServer",
                 "sku": "2019-datacenter-gensecond",
                 "version": "latest",
-                "exactVersion": "17763.4377.230505"
+                "exactVersion": "17763.4377.230805"
             },
             "osDisk": {
                 "osType": "Windows",
